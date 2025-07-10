@@ -1,0 +1,9 @@
+
+services:
+  - type: web
+    name: mamuy-notifier-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    plan: free
+    autoDeploy: true
